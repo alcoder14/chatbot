@@ -10,7 +10,7 @@ st.set_page_config(
 
 # Naslov
 st.title("🌴 Chatbot: Los Angeles")       # velik naslov na strani
-st.write("Vprašaj me karkoli o Los Angelesu in njegovi vsebini.")  # opis
+st.write("Vprašaj me karkoli o Los Angelesu")  # opis
 
 # Groq client
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])  # inicializacija Groq API klienta
